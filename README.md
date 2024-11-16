@@ -1,24 +1,22 @@
-# vue-template
+# Vue Preset Dampoff 🌟
 
-## Project setup
-```
-npm install
-```
+> Кастомный пресет Vue CLI для быстрого создания проектов с предустановленными зависимостями и удобным деплоем. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+---
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 📋 Особенности
 
-### Lints and fixes files
-```
-npm run lint
-```
+- **Поддержка Bootstrap** для стильной и быстрой верстки.
+- **Axios** для работы с API.
+- **Vue Router** с `history mode` для маршрутизации.
+- **Команда Deploy**: автоматическое копирование файлов сборки в указанную директорию (например, для Nginx).
+- Линтинг кода с помощью ESLint.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+
+## 🚀 Установка
+
+Создайте новый Vue проект с этим пресетом:
+
+```bash
+vue create --preset dampoff/vue-preset <project-name>
